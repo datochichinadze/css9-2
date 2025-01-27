@@ -22,7 +22,7 @@ a {
 .allcontainer {
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    background-color: #53389E;
 }
 
 
@@ -31,11 +31,19 @@ a {
 /* header */
 
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .headercontainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 80px 18px 112px;
+    padding: 18px 18px;
+    max-width: 1280px;
+    width: 100%;
 }
 
 
@@ -167,6 +175,7 @@ a {
     gap: 24px;
     justify-content: center;
     align-items: center;
+    margin-top: 64px;
 }
 
 
@@ -264,6 +273,11 @@ a {
 }
 
 
+.cardsClass img {
+    width: 100%;
+}
+
+
 
 /*  */
 
@@ -277,10 +291,6 @@ a {
 }
 
 
-
-.maindivcontainer {
-    margin-top: 24px;
-}
 
 
 
@@ -303,6 +313,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 
@@ -334,6 +345,7 @@ a {
     display: flex;
     gap: 64px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -383,6 +395,10 @@ a {
 }
 
 
+.teamtexts {
+    display: flex;
+    gap: 64px;
+}
 
 
 
@@ -487,6 +503,7 @@ a {
     gap: 64px;
     align-items: center;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 
@@ -592,6 +609,7 @@ a {
     justify-content: center;
     gap: 64px;
     background-color: #F2EDFF;
+    flex-wrap: wrap;
 }
 
 
@@ -649,6 +667,7 @@ a {
 .salebonus {
     display: flex;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 
@@ -915,9 +934,8 @@ a {
 
 .footercontainer {
     display: flex;
-    padding: 64px 0px 48px 0px;
+    padding: 64px 96px;
     flex-direction: column;
-    align-items: center;
     gap: 64px;
     align-self: stretch;
     background-color: #FAFAFA;
@@ -925,77 +943,213 @@ a {
 
 
 
+.firstfooterdiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 
 
+.imagesfooterdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+}
 
 
 
+.logoimgdiv {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 
 
 
+.DesignClass {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 270px;
+    width: 100%;
+}
 
 
 
+/*  */
 
 
 
 
+.secondfooterdiv {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+}
 
 
+.fourfooterdiv {
+    display: flex;
+    padding: 0px 40px 0px 0px;
+}
 
 
+.alltextsfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0px 80px 0px 0px;
+}
 
 
 
+.textsstylefooter {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 
 
+.boldtexts {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
 
 
 
+.footertexts {
+    color: #6941C6;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
 
 
 
+/*  */
 
 
+.emailinputdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 
 
 
+.stayClass {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
 
 
 
+.inputandbuttonstyle {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 
 
 
+.emailClass {
+    display: flex;
+    padding: 10px 14px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #7F56D9;
+    background-color: #FFF;
+    box-shadow: 4px 4px 20.9px 0px rgba(127, 86, 217, 0.25);
+}
 
 
 
+.buttonsubscribe {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    padding: 7px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+    background-color: #7F56D9;
+    border: none;
+    cursor: pointer;
+}
 
 
 
 
+.lastfooterdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    flex-wrap: wrap;
+    border-top: 1px solid #E9EAEB;
+}
 
 
 
+.footerlasttexts {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
 
 
 
 
 
+.lasttexts {
+    color: #717680;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
 
 
 
+/*  */
 
+.burgermenue {
+    display: none;
+}
 
+/*  */
 
 
 
 
 
 
+/* phone */
 
+.phonediv {
+    display: none;
+}
 
+/* phone */
 
 
 
@@ -1008,11 +1162,64 @@ a {
 
 
 
-/* desktop */
 
-@media screen and (min-width: 1024px) {}
 
-/* desktop */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1020,15 +1227,291 @@ a {
 
 /* table */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .ancorheaderdiv,
+    .buttondivstyle {
+        display: none;
+    }
+
+
+    .burgermenue {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .teamtexts {
+        flex-direction: column;
+    }
+
+
+    .textsandimagesClass {
+        flex-wrap: nowrap;
+    }
+
+    .imagesdiv {
+        background-position: initial;
+    }
+
+
+    .bacicplansalediv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .secondClass {
+        flex-direction: column;
+    }
+
+
+
+    .icontexts {
+        border-top-right-radius: 24px;
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: initial;
+    }
+
+
+
+    .charagterClass img {
+        width: 100%;
+        border-bottom-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: initial;
+    }
+
+
+    .firstfooterdiv {
+        gap: 48px;
+    }
+
+    .secondfooterdiv {
+        flex-direction: column-reverse;
+    }
+
+    .phonediv {
+        display: none;
+    }
+
+}
 
 /* table */
+
+
 
 
 
 
 /* smart phone */
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 768px) {
+    .burgermenue {
+        display: flex;
+        cursor: pointer;
+    }
+
+
+    .ancorheaderdiv,
+    .buttondivstyle {
+        display: none;
+    }
+
+
+
+
+    .bankingClass {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        max-width: 270px;
+        width: 100%;
+    }
+
+
+    .SimpleClass {
+        max-width: 300px;
+        width: 100%;
+    }
+
+
+    .buttonClass {
+        flex-direction: column;
+    }
+
+
+    .buttonimg,
+    .button-sing {
+        width: 267px;
+    }
+
+
+
+    .companilogostylediv {
+        flex-direction: column;
+    }
+
+
+
+    .onemaintext {
+        padding: 0px 16px;
+    }
+
+
+
+    .teamtexts {
+        flex-direction: column;
+    }
+
+
+
+
+    .phoneDiv {
+        display: flex;
+        padding: 0px 16px;
+        flex-direction: column;
+    }
+
+
+    .allPhoneDiv {
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        background-color: #53389E;
+        gap: 32px;
+        padding: 40px 24px 48px 14px;
+    }
+
+
+    .phoneParagrap {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+
+
+
+    .giveClass {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 38px;
+    }
+
+
+
+
+    .joinClass {
+        color: #E9D7FE;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        max-width: 200px;
+        width: 100%;
+    }
+
+
+
+
+    .buttonPhone {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+
+
+
+    .buttonGet {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        display: flex;
+        padding: 12px 18px;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        border-radius: 8px;
+        background-color: #7F56D9;
+        border: none;
+        cursor: pointer;
+        width: 270px;
+    }
+
+
+
+
+    .buttonLearn {
+        color: #181D27;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        display: flex;
+        padding: 12px 18px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 8px ;
+        background-color: #FFF;
+        border: 1px solid #D5D7DA;
+        cursor: pointer;
+        width: 270px;
+    }
+
+
+
+    .imagesPhone {
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .icontexts {
+        border-top-right-radius: 24px;
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: initial;
+    }
+
+
+
+    .charagterClass img {
+        width: 100%;
+        border-bottom-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: initial;
+    }
+
+
+    .bacicplansalediv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .secondClass {
+        flex-direction: column;
+    }
+
+}
 
 /* smart phone */
